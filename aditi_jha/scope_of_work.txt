@@ -1,0 +1,6 @@
+DRIFTWOOD ARCADE BROWSER GAME PORTAL
+Category: Web Development
+
+SCOPE OF WORK
+
+The work covers the complete front end build of a responsive, multi page gaming website using HTML, CSS, and plain JavaScript, with three playable original mini games rendered on an HTML5 canvas, a games catalogue driven by a supplied JSON dataset, and a high score board that stores results in the browser using local storage. The site also includes a home page, an about page, and a styled contact form layout, all sharing one consistent visual theme and a mobile friendly responsive layout down to small phone screens. The result is a single, self contained site that can be opened locally or dropped onto any static host without a backend, database, or paid plugin.

@@ -1,0 +1,22 @@
+DRIFTWOOD ARCADE BROWSER GAME PORTAL
+Category: Web Development
+
+OVERVIEW
+
+Driftwood Arcade is a small independent studio that builds light hearted pixel
+art games for the web. The studio wants a friendly web portal where people can
+browse and play a handful of original browser based mini games right away, with
+no downloads and no sign up.
+
+The portal ties together a home page, a filterable games catalogue, individual
+game pages where each game runs directly on an HTML5 canvas, a high score board,
+an about page, and a contact page. The path from landing on the site to playing
+a round stays short, so a visitor can pick a game, play, and compare scores in a
+single sitting.
+
+The whole build runs on the front end alone using HTML, CSS, and plain
+JavaScript. There is no backend, no database, and no paid plugin. Scores are kept
+in the browser through local storage, and the games catalogue loads from a
+supplied JSON dataset rather than being written into the pages by hand. The
+finished site is one self contained project that can be served from any static
+file host.

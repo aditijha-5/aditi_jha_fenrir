@@ -1,0 +1,124 @@
+﻿1. The project contains an `index.html` file that serves as the Home page.
+
+
+2. The project contains a `games.html` file that serves as the catalogue page.
+
+
+3. The project contains a `leaderboard.html` file that serves as the high score page.
+
+
+4. The project contains an `about.html` file that presents the studio story.
+
+
+5. The project contains a `contact.html` file that contains the contact form.
+
+
+6. The project contains a `dune-dash.html` page for the Dune Dash game.
+
+
+7. The project contains a `star-catcher.html` page for the Star Catcher game.
+
+
+8. The project contains a `tide-match.html` page for the Tide Match game.
+
+
+9. Every page displays the same navigation links in the header.
+
+
+10. Every page displays the same footer content.
+
+
+11. The header displays the text logo "DRIFTWOOD ARCADE".
+
+
+12. The active navigation link uses the Tide color (`#4ECDC4`).
+
+
+13. The page background uses the Midnight color (`#161A2B`).
+
+
+14. Buttons use the Sand color (`#F4A259`) as their background.
+
+
+15. The main content area is constrained to a maximum width of 1100 pixels.
+
+
+16. The catalogue page loads game records from `assets/games.json` using the Fetch API.
+
+
+17. The catalogue renders game cards dynamically from dataset records.
+
+
+18. Each catalogue card displays a thumbnail image.
+
+
+19. Each catalogue card displays a category badge.
+
+
+20. Each catalogue card displays the difficulty value.
+
+
+21. A playable game card displays a Play button.
+
+
+22. A coming-soon game card displays the text "Coming soon".
+
+
+23. A coming-soon game card does not display a Play button.
+
+
+24. The catalogue provides an `All` category filter option.
+
+
+25. The catalogue search matches game titles without letter-case sensitivity.
+
+
+26. The catalogue displays the message "No games match that filter" when no records satisfy the current filters.
+
+
+27. The Dune Dash canvas is configured at 800×300 pixels.
+
+
+28. Pressing the Space key causes the Dune Dash character to jump.
+
+
+29. A collision with an obstacle ends a Dune Dash run.
+
+
+30. Dune Dash stores the best score under the key `driftwood_dune_dash_best`.
+
+
+31. The Star Catcher canvas is configured at 600×400 pixels.
+
+
+32. Catching a star increases the Star Catcher score by exactly 1 point.
+
+
+33. Catching a bomb removes exactly 1 life in Star Catcher.
+
+
+34. Star Catcher stores the best score under the key `driftwood_star_catcher_best`.
+
+
+35. Tide Match initializes a board containing 16 cards.
+
+
+36. Tide Match shuffles card positions at the start of a new game.
+
+
+37. Tide Match stores the best result under the key `driftwood_tide_match_best`.
+
+
+38. The header navigation collapses behind a menu button at widths of 600 pixels or less.
+
+
+39. The layout displays no horizontal scrollbar at a viewport width of 320 pixels.
+
+
+40. The leaderboard displays a dash when a stored score is unavailable.
+
+
+41. The browser console remains free of errors during normal gameplay.
+
+
+42. The project includes a `README.md` file explaining how to run the site on a local static server.
